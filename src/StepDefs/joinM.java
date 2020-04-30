@@ -24,7 +24,7 @@ import cucumber.api.java.en.When;
 		Thread.sleep(2000);
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
-		driver.navigate().to("https://www.marriott.com/loyalty/createAccount/createAccountPage1.mi");
+		driver.navigate().to("");
 		
 	}
 

@@ -18,7 +18,7 @@ public class CreateAccount {
 		driver= new ChromeDriver();
 		Thread.sleep(2000);
 		driver.manage().window().maximize();
-		driver.navigate().to("https://www.marriott.com/loyalty/createAccount/createAccountPage1.mi");
+		driver.navigate().to("");
 	    
 	}
 

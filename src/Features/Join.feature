@@ -1,11 +1,11 @@
 #Author: your.email@your.domain.com
 #Keywords Summary :
 
-Feature: Join Marriott Bonvoy 
+Feature: Join Page 
  
 
   
-  Scenario: Join Marriott Bonvoy
+  Scenario: Join Page
     Given user is in the Join page
     And user enters first name
     And user enters last name
