@@ -1,11 +1,12 @@
-#Author: your.email@your.domain.com
-#Keywords Summary :
-#Feature: List of scenarios.
-#Scenario: Business rule through list of steps with arguments.
+
+
+
+
+
 
 Feature: Join 22 
   
-   @Smoke  @Regression
+   
   Scenario: Join 22 
     Given user is in the Join  22 page
     And user enters "Parigul" in the first name text box
