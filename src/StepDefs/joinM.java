@@ -17,7 +17,7 @@ import cucumber.api.java.en.When;
 	@Given("^user is in the Join page$")
 	public void user_is_in_the_Join_page() throws InterruptedException  {
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Aqdas\\Desktop\\GoogleChrome\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Aqdas\\Desktop\\Chromed\\chromedriver.exe");
 		driver= new ChromeDriver();
 		
 		JOP = new JoinP (driver);

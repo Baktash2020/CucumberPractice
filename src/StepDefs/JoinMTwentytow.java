@@ -17,14 +17,14 @@ public class JoinMTwentytow {
 	@Given("^user is in the Join  (\\d+) page$")
 	public void user_is_in_the_Join_page(int arg1) throws InterruptedException {
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Aqdas\\Desktop\\GoogleChrome\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Aqdas\\Desktop\\Chromed\\chromedriver.exe");
 		driver= new ChromeDriver();
 		
 		JOP = new JoinP (driver);
 		Thread.sleep(2000);
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
-		driver.navigate().to("");
+		driver.navigate().to("https://www.marriott.com/loyalty/createAccount/createAccountPage1.mi");
 
 
 	}
